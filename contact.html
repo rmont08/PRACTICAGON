@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header id="header">
+        <div id="nav-container">
+            <div id="logo">
+                <img src="./img/logo.png" alt="Logo">
+            </div>
+            <nav id="nav">
+                <ul id="nav-list">
+                    <li id="nav-item-1"><a href="./index.html">Inicio</a></li>
+                    <li id="nav-item-2"><a href="./catalog.html">Catálogo</a></li>
+                    <li id="nav-item-3"><a href="./contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div id="nav-icons">
+                <a id="search-icon" href="#"><img src="./img/icon/search.png" alt="Buscar"></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenido de la página de contacto -->
+    <div id="contact-page">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h2>Formulario de Contacto</h2>
+                <form id="contact-form">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <h2>Información de Contacto</h2>
+                <p><strong>Teléfono:</strong> +34 123 456 789</p>
+                <p><strong>Correo Electrónico:</strong> contacto@temerario.com</p>
+                <p><strong>Dirección:</strong> Carrer de Pau Claris, 08010 Barcelona, España</p>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1177.3356750233452!2d2.1700001!3d41.3836892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4932fa5bff93b%3A0x4d478e5a6b4dca38!2sCarrer%20de%20Pau%20Claris%2C%2008010%20Barcelona%2C%20Espa%C3%B1a!5e0!3m2!1ses!2ses!4v1597126575307!5m2!1ses!2ses" 
+                        width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div id="footer-container">
+            <div id="footer-about">
+                <h2 id="footer-title">TEMERARIO</h2>
+                <p id="footer-description">Pasión por la velocidad y el diseño. Encuentra los mejores coches deportivos con nosotros.</p>
+            </div>
+            <div id="footer-links">
+                <h3 id="footer-links-title">Enlaces</h3>
+                <ul id="footer-links-list">
+                    <li><a href="./index.html" id="link-home">Inicio</a></li>
+                    <li><a href="./catalog.html" id="link-cars">Catalogo</a></li>
+                    <li><a href="./contact.html" id="link-contact">Contacto</a></li>
+                </ul>
+            </div>
+            <div id="footer-social">
+                <h3 id="footer-social-title">Síguenos</h3>
+                <a href="#" id="social-facebook">Facebook</a>
+                <a href="#" id="social-instagram">Instagram</a>
+                <a href="#" id="social-twitter">Twitter</a>
+            </div>
+        </div>
+        <div id="footer-bottom">
+            <p id="footer-bottom-text">&copy; 2024 TEMERARIO Store. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
